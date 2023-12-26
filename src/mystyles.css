@@ -143,7 +143,7 @@ font-weight: bolder;
 }
 
 .text-input-area{
-    background-color: white;
+    background-color: rgb(63, 63, 63);
     padding: 10px 10px;
     margin: 10px;
     border-radius: 20px;
