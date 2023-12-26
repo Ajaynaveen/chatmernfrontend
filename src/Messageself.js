@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Messageself({ text, sender,timestamp }) {
+  console.log({sender})
   return (
     <div className='self-message-container'>
       <div className='message-box'>
