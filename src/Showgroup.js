@@ -88,7 +88,7 @@ let user=group
     }}>
       <p className='con-icon'>{group.chatName[0]}</p>
       <p className='con-name'>{group.chatName}</p>
-      <button onClick={() => handlemessage(group._id)}>{value}</button>
+      <button className='button' onClick={() => handlemessage(group._id)}>{value}</button>
     </div>
   );
 }
